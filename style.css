@@ -1,0 +1,14 @@
+body {
+	background: #644b50;
+	width: 100%;
+	margin: 120px;
+}
+
+.logo {
+	width: 240px;
+	fill: #fff;
+}
+
+.logo path:nth-of-type(1){
+	fill: #
+}
