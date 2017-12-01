@@ -47,14 +47,17 @@ table {
 	border-spacing: 0;
 }
 /* end reset */
-
+html, body {
+    height: 100%;
+}
 
 body {
-	#background: #644b50;
+	min-height: 460px;
 	background: #ccc;
-	padding: 120px;
+	padding: 80px;
 	
-	font-size: 24px;
+	font-size: 20px;
+	line-height: 1.25;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -65,7 +68,8 @@ h1 {
 	text-align: right;
 }
 .logo {
-	width: 240px;
+	width: 100%;
+	max-width: 180px;
 	fill: #fff;
 }
 
@@ -76,6 +80,7 @@ h1 {
 }
 h2 {
 	position: absolute;
+	left: 0;
 	bottom: 0;
-	padding-bottom: 120px;
+	margin: 80px;
 }
